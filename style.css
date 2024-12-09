@@ -1,0 +1,31 @@
+/* FORM TIPOS DE POKEMON E4-js */
+body{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(248, 146, 78, 0.765);
+    align-items: center;
+    position: relative;
+}
+
+.loginPoke{
+    color: white;
+    border: solid 1px white;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.loginPoke h1{
+    font-size: 80px;
+    font-family:'pokemon-solid';
+}
+
+button{
+    border-radius: 1rem;
+    list-style: none;
+    width: 20%;
+    height: 20%;
+}
