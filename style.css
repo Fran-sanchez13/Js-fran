@@ -33,13 +33,14 @@ body{
 #apiForm input{
     width: 200px;
     height: 30px;
+    border-radius: 1rem;
 }
 
-button{
+.button{
     border-radius: 1rem;
     list-style: none;
-    width: 20%;
-    height: 20%;
+    width: 150px;
+    height: 50px;
 }
 
 
