@@ -3,7 +3,7 @@ body{
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    background-color: rgba(248, 146, 78, 0.765);
+    background-image: url(assets/img/cute-yellow-mouse-character-background-free-vector.jpg);
     align-items: center;
     position: relative;
 }
@@ -16,11 +16,23 @@ body{
     height: 100%;
     flex-direction: column;
     padding: 20px;
+    background-color: black;
 
 }
 .loginPoke h1{
     font-size: 80px;
     font-family:'pokemon-solid';
+}
+
+#apiForm{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+#apiForm input{
+    width: 200px;
+    height: 30px;
 }
 
 button{
@@ -29,3 +41,30 @@ button{
     width: 20%;
     height: 20%;
 }
+
+
+.containerPokeApi{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    border-radius: 1rem;
+    margin: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPokeApi h2{
+    font-size: 50px;
+    margin-top: 0;
+    font-family:'pokemon-solid';
+}
+
+.containerPokeApi img{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+
