@@ -3,51 +3,81 @@ body{
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    background-image: url(assets/img/cute-yellow-mouse-character-background-free-vector.jpg);
+    background-image: url(assets/img/backgound-img.jpg);
     align-items: center;
     position: relative;
 }
 
 .loginPoke{
     color: white;
-    border: solid 1px white;
+    border: solid 4px black;
     border-radius: 1rem;
     width: 100%;
     height: 100%;
     flex-direction: column;
     padding: 20px;
-    background-color: black;
+    background: rgba(0, 0, 0, 0);
 
 }
+
 .loginPoke h1{
     font-size: 80px;
     font-family:'pokemon-solid';
+    color: black;
 }
 
 #apiForm{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-#apiForm input{
+.searchMsg{
+    color: black;
+    font-family:'pokemon-solid';
+    font-size: 25px;
+    
+}
+
+ input{
     width: 200px;
     height: 30px;
     border-radius: 1rem;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+input:hover{
+    background-color: white;
+    color: black;
 }
 
 .button{
     border-radius: 1rem;
+    border: 2px solid black;
     list-style: none;
     width: 150px;
     height: 50px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background: white;
+    color: black;
 }
 
 
 .containerPokeApi{
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
+    /* border: 1px solid white; */
     border-radius: 1rem;
     margin: 10px;
     padding: 20px;
@@ -66,6 +96,19 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 1rem;
+}
+
+/* CARD POKEMON */
+
+.title, .powers, .height, .weight{
+    color: black;
+    font-size: 30px;
+}
+
+.image{
+    width: 500px;
+    height: 500px;
+
 }
 
 
